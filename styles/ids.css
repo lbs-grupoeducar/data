@@ -1,0 +1,127 @@
+#carouselExampleIndicators {
+	
+	height: auto;
+	top:82px;
+}
+
+
+
+
+#jumschedule {
+	background :url('https://lbs.edu.hn/images/Backgounds/calendar1.jpg')no-repeat fixed;
+	background-size: cover;
+    filter: Alpha(opacity=10);
+	position: relative;
+}
+
+#slide1 {
+background-image:url('https://lbs.edu.hn/images/instalaciones/building-compressed.jpg');
+  background-size: cover;
+	background-position: center;
+  opacity: 0.9;
+  filter: Alpha(opacity=90);
+	height: 400px;
+}
+
+#slide2 {
+background-image:url('https://lbs.edu.hn/images/instalaciones/fullkiosco-compressed.jpg');
+  background-size: cover;
+	background-position: center;
+  opacity: 0.9;
+  filter: Alpha(opacity=90);
+}
+
+#learn {
+	
+}
+
+#slide3 {
+background-image:url('https://lbs.edu.hn/images/instalaciones/aulas4-compressed.jpg');
+  background-size: cover;
+	background-position: center;
+  opacity: 0.9;
+  filter: Alpha(opacity=90);
+}
+
+#learn {
+background: url('https://lbs.edu.hn/images/learn.jpg') fixed;
+opacity: .8;
+filter: Alpha(opacity=50);
+background-size: cover;
+ background-position: bottom;
+}
+
+#k3k4 {
+background: url('https://lbs.edu.hn/images/instalaciones/K3k4.jpeg') fixed;
+opacity: .8;
+filter: Alpha(opacity=50);
+background-size: cover;
+ background-position: bottom;
+}
+
+#k4k5 {
+  background: url('https://lbs.edu.hn/images/Backgounds/k5.jpg')fixed;
+  background-size: cover;
+  background-position: bottom;
+  opacity: 1;
+  filter: Alpha(opacity=50);
+}
+
+
+#k3jumbg {
+	background:url('https://lbs.edu.hn/images/chicosback.jpg') fixed;
+    background-size: cover;
+	background-position: center;
+	opacity: 0.5;
+    filter: Alpha(opacity=50);
+}
+
+
+
+#k4jumbg {
+	background-image:url('https://lbs.edu.hn/images/instalaciones/arbolabc.jpg');
+    background-size: cover;
+}
+
+#bkcolor {background-color: #3e7fa3;
+}
+
+#bkcolor1 {
+	height: 30px;
+	background-color: #32ae00;
+	color: snow;
+	}
+
+
+#colortesxt {
+	color: #3e7fa3;
+}
+
+#colortesxt1 {
+	background-color: #3e7fa3;
+	color: ghostwhite;
+}
+
+#salespanel {
+	padding-left: 0em;
+	padding-right: 0em;
+	margin-top: .08em;
+	margin-bottom: .08em;
+}
+
+#quarter {
+	background-color: #3e7fa3;
+	margin-top: .08em;	
+}
+
+#cardbk {
+	background-color: #003366;
+	color: snow;
+}
+
+#costos {
+	color: snow;
+	background-color: #ffb400;
+	margin-top: .1em;
+	margin-bottom: .1em;
+}

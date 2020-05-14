@@ -1,0 +1,69 @@
+/*---------------------Academicyear----------------------------------------*/
+
+.sales {
+ font-family: 'Nunito', sans-serif;
+  background-color: #003366;;
+  color: gainsboro;
+  cursor: pointer;
+  padding: 14px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  align-content: center;
+  }
+
+.table {
+color: #3e7fa3;
+}
+
+.table-responsive {
+	font-size: 12px;
+	
+}
+
+.titleslidepanel {
+	font-size: 20px;
+	color: #003366;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.activePanel, .sales:hover {
+  background-color: #7fb800;
+}
+
+.sales:after {
+  content: '\25BC';
+  color: whitesmoke;
+  font-weight: 5px;
+  float: right;
+}
+
+.activePanel:after {
+  content: "\25C0";
+}
+
+
+.salesPanel {
+  display: none;
+  padding: 0 18px;
+  background-color: whitesmoke;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panelContent {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .panelContent {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
